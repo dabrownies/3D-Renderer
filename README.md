@@ -141,22 +141,6 @@ Uses Phong reflection model with three components:
 - **Clip Space** - Perspective projection applied
 - **Screen Space** - Final 2D pixel coordinates
 
-## Output Format
-
-Images are saved as PPM (Portable Pixmap) format:
-- Uncompressed RGB data
-- Viewable in most image viewers
-- Easy to convert to PNG/JPEG if needed
-
-## Extending the Engine
-
-Easy to add new features:
-- **New Primitives** - Cylinders, cones, custom meshes
-- **Smooth Shading** - Gouraud or Phong per-vertex interpolation
-- **Texture Mapping** - UV coordinates and image sampling
-- **Advanced Lighting** - Normal mapping, shadow mapping
-- **Post-Processing** - Anti-aliasing, tone mapping
-
 ## License
 
 MIT License - Free to use and modify
